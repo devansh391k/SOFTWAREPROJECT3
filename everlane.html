@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everlane: Exceptional Quality. Ethical Factories. Radical Transparency.</title>
+    <link rel="icon" href="https://www.everlane.com/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="https://imgs.search.brave.com/sPB9lLjNg4KVTKmcSlWcsOxRb8mgyPbYEHA8xFAX5m8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9lbWFp/bGxvdmUuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDI0LzEy/LzM1MjUzNjQ5M18y/Nzc0MjI2MjQ3NzA5/OTVfNTM0MTE4NjY0/MjgxMTI1OTMzX24u/anBn" alt="Everlane Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Sale</a></li>
+                <li><a href="#">Stores</a></li>
+            </ul>
+        </nav>
+        <div class="account">
+            <button id="signin-btn">Sign In</button>
+            <a href="#">Cart</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Exceptional Quality. Ethical Factories. Radical Transparency.</h1>
+        <p>Discover our latest collection of sustainable and stylish essentials.</p>
+        <button>Shop Now</button>
+    </section>
+
+    <nav class="navigation">
+        <ul>
+            <li><a href="#" data-section="women">Women's Clothing</a></li>
+            <li><a href="#" data-section="men">Men's Clothing</a></li>
+            <li><a href="#" data-section="shoes">Shoes</a></li>
+            <li><a href="#" data-section="accessories">Accessories</a></li>
+        </ul>
+    </nav>
+
+    <section id="women" class="product-section active">
+        <h2>Women's Clothing</h2>
+        <div class="products">
+            </div>
+    </section>
+
+    <section id="men" class="product-section">
+        <h2>Men's Clothing</h2>
+        <div class="products">
+            </div>
+    </section>
+
+    <section id="shoes" class="product-section">
+        <h2>Shoes</h2>
+        <div class="products">
+            </div>
+    </section>
+
+    <section id="accessories" class="product-section">
+        <h2>Accessories</h2>
+        <div class="products">
+            </div>
+    </section>
+
+    <div id="signin-modal" class="signin-modal">
+        <div class="signin-modal-content">
+            <span class="close">&times;</span>
+            <h2>Sign In</h2>
+            <form id="signin-form">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br><br>
+                <button type="submit">Sign In</button>
+            </form>
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Everlane. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
